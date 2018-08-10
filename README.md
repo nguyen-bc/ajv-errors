@@ -1,6 +1,7 @@
 # AJV-ERRORS
 [![Build Status](https://travis-ci.org/nguyen-bc/ajv-errors.svg?branch=master)](https://travis-ci.org/nguyen-bc/ajv-errors)
-[![Coverage Status](https://coveralls.io/repos/github/nguyen-bc/ajv-errors/badge.svg?branch=master)](https://coveralls.io/github/nguyen-bc/ajv-errors?branch=master)
+
+make errors of [ajv](https://yarnpkg.com/en/package/ajv) to be more human readable format.
 
 ### INSTALL
 ```shell
@@ -9,6 +10,7 @@ yarn add ajv-errors
 ### USAGE
 ```javascript
 var ajvErrors = require('ajv-errors');
+var Ajv = require('ajv');
 var ajv = new Ajv({ allErrors: true });
 var isValid = ajv.validate(schema, data);
 
