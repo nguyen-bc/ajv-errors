@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint lib",
-    "test": "ava",
-    "test:coverage": "nyc --reporter=html --reporter=text ava"
+    "test": "nyc --reporter=html --reporter=text ava"
   },
   "ava": {
     "files": [ "test/**/*.spec.js" ]
