@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "standardize ajv errors to human readable",
   "main": "lib/index.js",
-  "repository": "https://github.com/nguyen-bc/ajv-errors",
+  "repository": "https://github.com/nguyen-bc/ajv-errors.git",
   "author": "Bui Chi Nguyen <nguyen.bc@neniss.com>",
   "license": "MIT",
   "scripts": {
