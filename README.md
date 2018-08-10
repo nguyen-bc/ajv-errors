@@ -1,4 +1,4 @@
-# AJV-ERRORS
+# NEN-AJV-ERRORS
 [![Build Status](https://travis-ci.org/nguyen-bc/ajv-errors.svg?branch=master)](https://travis-ci.org/nguyen-bc/ajv-errors)
 
 make errors of [ajv](https://yarnpkg.com/en/package/ajv) to be more human readable format.
