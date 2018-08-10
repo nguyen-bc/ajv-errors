@@ -1,0 +1,28 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "camelcase": [
+      0,
+      {
+        "properties": "never"
+      }
+    ],
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "no-trailing-spaces": 0,
+    "no-shadow": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "no-use-before-define": ["error", { "variables": false }],
+    "no-multi-str": 0,
+    "consistent-return": "off",
+    "object-curly-spacing": [2, "always"]
+  },
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  }
+}
