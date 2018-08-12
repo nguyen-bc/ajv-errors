@@ -1,6 +1,6 @@
 {
   "name": "nen-ajv-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "standardize ajv errors to human readable",
   "main": "lib/index.js",
   "repository": "https://github.com/nguyen-bc/ajv-errors.git",
